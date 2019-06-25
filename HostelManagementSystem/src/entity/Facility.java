@@ -1,0 +1,42 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package entity;
+
+/**
+ *
+ * @author Ashen Koralage
+ */
+public class Facility {
+
+    private String FID;
+    private String Name;
+
+    public Facility() {
+    }
+
+    public Facility(String FID, String Name) {
+        this.FID = FID;
+        this.Name = Name;
+    }
+
+    public String getFID() {
+        return FID;
+    }
+
+    public void setFID(String FID) {
+        this.FID = FID;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String Name) {
+        this.Name = Name;
+    }
+    
+    
+}
